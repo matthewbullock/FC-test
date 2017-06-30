@@ -1,0 +1,28 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+html,body {
+	padding:0px; 
+	margin:0px;
+  	height:100%;
+  	font: 100% $font-stack;
+  	color: $primary-color;
+}
+
+#Landing {
+  	padding: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    background-image: url(../img/Landing_banner.png);
+	background-color: #3e444d;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    	
+}
